@@ -9,6 +9,10 @@ public class testPessoa {
           number.add(12);
           number.add(14);
           number.add(15);
+
+          for (Integer list : number) {
+                System.out.println("Numero: "+list);
+          }
         
     }
 }
