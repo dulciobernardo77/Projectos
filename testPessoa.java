@@ -13,6 +13,7 @@ public class testPessoa {
           for (Integer list : number) {
                 System.out.println("Numero: "+list);
           }
-        
+
+          number.stream().min((a,b) -> a.compareTo(b)).ifPresent(min -> System.out.println("Minimo: "+min));
     }
 }
